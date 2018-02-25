@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#header-image {
+  width: 100%;
+}
+header {position: relative;}
+.header-title {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-size: 22px;
+  color: #D9DED8;
+}
+.subheader-items{color: rgba(177, 155, 182, 0.322); font-size: 25px;}
+.subtitle {
+  top: 13%;
+  left: 85px;
+}
+.dream {top: 24%; left: 55%;}
+.impact {top: 45%; left: 50%;}
+.family {top: 60%; left: 5%; font-size: 18px; line-height: 85%; display: inline;}
