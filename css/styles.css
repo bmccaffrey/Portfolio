@@ -1,8 +1,34 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  /* background: #e9e9e9; */
 }
 
 header div {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  /* background: #9B9B9B; */
+  background: #eee;
+  cursor: pointer;
+  padding: 10px;
+  color: #444;
+}
+
+p, ul, div { display: none;}
+
+h3 {
+  /* background: #6E6E6F; */
+  /* background: #D0B590; */
+  background: #c1c1c1;
+}
+h4 {
+  /* background: #cccccc; */
+  /* background: #D0B590; */
+  background: #D1CBBF;
+}
+li {
+  /* background: #CCD0D4; */
+  /* background: #D0B590; */
 }
