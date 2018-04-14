@@ -9,7 +9,6 @@ header div {
 }
 
 h1 {
-  /* background: #9B9B9B; */
   background: #eee;
   cursor: pointer;
   padding: 10px;
@@ -19,16 +18,13 @@ h1 {
 p, ul, div { display: none;}
 
 h3 {
-  /* background: #6E6E6F; */
-  /* background: #D0B590; */
   background: #c1c1c1;
 }
 h4 {
-  /* background: #cccccc; */
-  /* background: #D0B590; */
   background: #D1CBBF;
+  text-indent: 15px;
 }
-li {
-  /* background: #CCD0D4; */
-  /* background: #D0B590; */
+.float {
+  float: left;
+  padding-right: 15px;
 }
