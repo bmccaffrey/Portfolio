@@ -57,3 +57,11 @@ div.text {
   /* font-size:24pt; */
   font-size: 2em;
 }
+
+div.icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 8px;
+  text-align: center;
+}
