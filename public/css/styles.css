@@ -80,3 +80,9 @@ address img {
 address div {
   display: block;
 }
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0 20% 0 20%;
+  }
+}
