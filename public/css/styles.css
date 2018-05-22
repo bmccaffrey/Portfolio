@@ -1,12 +1,14 @@
 * {
   box-sizing: content-box;
 }
+
 body {
   box-sizing: content-box;
   margin: 0;
   background: #F8F8F2;
   /* background: #e9e9e9; */
 }
+
 header {
   width: 100%;
 }
@@ -14,6 +16,7 @@ header {
 header div {
   font-family: Helvetica, Arial, sans-serif;
 }
+
 header span { 
   font-family: Noteworthy-Light;
   font-size: 30px;
@@ -29,6 +32,7 @@ h1 {
   padding: 10px;
   color: #444;
 }
+
 .arrow {
   color:red;
   float: right;
@@ -42,24 +46,29 @@ h3 {
   border-bottom: 1px black solid;
   text-indent: .75em;
 }
+
 h4 {
   background: #D1CBBF;
   text-indent: 15px;
 }
+
 .float {
   float: left;
   padding-right: 15px;
 }
+
 header img {
   width:100%;
   height: 25%;
 }
+
 div.text {
   display: block;
   font-family: Noteworthy;
   /* font-size:24pt; */
   font-size: 2em;
 }
+
 
 div.icon {
   display: inline-block;
@@ -69,16 +78,23 @@ div.icon {
   text-align: center;
 }
 
+
 address {
   padding-top: 10px;
 }
+
 address img {
   height: 20px;
   width: 20px;
   padding: 0 10px 0 10px;
 }
+
 address div {
   display: block;
+}
+
+.project {
+  /* background-color: orange; */
 }
 
 @media screen and (min-width: 1200px) {
