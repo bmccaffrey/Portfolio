@@ -36,6 +36,8 @@ h1 {
 .arrow {
   color:red;
   float: right;
+  height: 24px;
+  width: 12px;
 }
 
 p, ul, div { display: none;}
