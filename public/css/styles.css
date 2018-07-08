@@ -16,14 +16,6 @@ header div {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-header span { 
-  font-family: Noteworthy-Light;
-  font-size: 30px;
-  color: #4A90F9;
-  text-align: left;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-}
-
 h1 {
   background: #eee;
   cursor: pointer;
@@ -65,7 +57,6 @@ header img {
 }
 
 div.text {
-  display: block;
   font-family: Noteworthy;
   font-size: 2em;
 }
@@ -86,10 +77,6 @@ address img {
   height: 20px;
   width: 20px;
   padding: 0 10px 0 10px;
-}
-
-address div {
-  display: block;
 }
 
 @media screen and (min-width: 1200px) {
