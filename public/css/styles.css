@@ -38,6 +38,10 @@ h1 {
   width: 12px;
 }
 
+.hidden {
+  display: none;
+}
+
 h3 {
   font-size: 1.5em;
   padding-bottom: 5px;
