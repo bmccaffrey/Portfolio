@@ -7,12 +7,6 @@ var stuff = document.querySelectorAll('.arrow');
 var inactive = 'svg-inline--fa fa-angle-left fa-w-8 arrow';
 var active = 'svg-inline--fa fa-angle-down fa-w-8 arrow';
 
-// function activate() {
-//   icon.setAttribute('class', active);
-//   for (i=0; i<x.length; i++) {
-//     x[i].
-//   // }
-// }
 // 14 LOC -- assigns EL to all x[i]s of a specific type
 function collapse(x) {
   for(i=0; i<x.length; i++) {
