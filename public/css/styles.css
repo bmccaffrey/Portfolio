@@ -86,6 +86,13 @@ address img {
   width: 20px;
 }
 
+.personal__icon {
+  font-family: monospace;
+  font-size: 16pt;
+  color: antiquewhite;
+  background-color: grey;
+}
+
 @media screen and (min-width: 1200px) {
   body {
     margin: 0 20% 0 20%;
