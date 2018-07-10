@@ -93,6 +93,10 @@ address img {
   background-color: grey;
 }
 
+.personal__icon:hover {
+  background-color: orange;
+}
+
 .no_decoration {
   text-decoration: none;
 }
