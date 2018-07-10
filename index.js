@@ -5,8 +5,8 @@ const app = express()
 
 app.use(express.static('public'))
 
-app.get('/drumkit', function(req, res) {
-  res.send('drumkit/index.html')
+app.get('projects/drumkit', function(req, res) {
+  res.send('projects/drumkit/index.html')
 })
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
