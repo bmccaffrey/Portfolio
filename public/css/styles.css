@@ -93,6 +93,10 @@ address img {
   background-color: grey;
 }
 
+.no_decoration {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1200px) {
   body {
     margin: 0 20% 0 20%;
