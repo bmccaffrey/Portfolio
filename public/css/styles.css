@@ -82,6 +82,10 @@ address img {
   padding: 0 10px 0 10px;
 }
 
+.project__icon {
+  width: 20px;
+}
+
 @media screen and (min-width: 1200px) {
   body {
     margin: 0 20% 0 20%;
