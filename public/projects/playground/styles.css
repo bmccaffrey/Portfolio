@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  align-items: center;
+  background-color: #828282;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  font-size: 2em;
+  height: 150px;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container__main {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 70vh;
+  grid-gap: 0 5%;
+}
+
+.styles-menu {
+  background-color: #BDBDBD;
+  height: 75vh;
+  margin: 15px 0 0 15px;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+.styles-menu__title{
+  font-family: 'Playfair Display', serif;
+  font-size: 26pt;
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  margin-top: 0px;
+}
+
+.styles-menu__subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 32pt;
+  text-indent: 5%;
+  margin: 0 0 10px 0;
+}
+.styles-menu__subtitle:hover {
+  color: cornflowerblue;
+}
+
+.styles-menu__item {
+  font-size: 18pt;
+  text-indent: 10%;
+  margin: 0;
+}
+
+.styles-menu__item--big{
+  font-size: 32pt;
+}
+
+.styles-menu__item:hover {
+  color: cornflowerblue;
+}
+
+.styles-menu__properties-list {
+  margin: 0;
+}
+.styles-menu__property {
+  font-size: 12pt;
+  font-family: monospace;
+}
+
+.style-menu__property--big {
+  font-size: 18pt;
+}
+
+.styles-menu__property:hover {
+  color: #ff9b00;
+}
+
+.style-menu__property-intro {
+  margin: 0 0 5px 0;
+  text-decoration: underline;
+}
+
+.styles-menu__property-value-list {
+  font-size: 12pt;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.display {
+  background-color: #F2F2F2;
+  color: orange;
+  font-size: 5em;
+  height: 75vh;
+  width: 50vw;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.display--flex {
+  display: flex;
+}
+
+.display__block {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.red {
+  background-color: #FF2400;
+}
+.darkred {
+  background-color: orangered;
+}
+.darkerred {
+  background-color: #DC0000;
+}
+
+.blue{
+  background-color: cornflowerblue;
+}
+.darkblue {
+  background-color: dodgerblue;
+}
+.darkerblue{
+  background-color: darkblue;
+}
+
+.green {
+  background-color: green;
+}
+.darkgreen {
+  background-color: #649500;
+}
+.darkergreen {
+  background-color: #0d3b02;
+}

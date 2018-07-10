@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Box Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="control-panel">
+    <h1 class="control-panel__title">Control Panel</h1>
+    <hr>
+    <div>
+      <label for="">Quantity</label>
+      <button id="add">Add Box</button>
+      <button id="remove">Remove Box</button>
+      <hr>
+      <label for="">Select</label>
+      <input type="number" name="select" id="select">
+      <div class = "hidden" id="error">Oops! Select a valid box</div>
+      <hr>
+      <label for="">Height</label>
+      <input type="number" name="height" id="height">
+      <hr>
+      <label for="">Width</label>
+      <input type="number" name="width" id="width">
+      <hr>
+      <label for="">Padding</label>
+      <input type="number" name="padding" id="padding">
+      <hr>
+      <label for="">Border</label>
+      <input type="number" name="border" id="border">
+      <hr>
+      <label for="">Margin</label>
+      <input type="number" name="margin" id="margin">
+      <hr>
+      <label for="">Color</label>
+      <input type="color" name="background-color" id="">
+      <hr>
+      <div>Display</div>
+      <div>
+        <label for="">Block</label>
+        <input type="radio" name="display" id="block">
+        <label for="">Inline-Block</label>
+        <input type="radio" name="display" id="inline-block">
+        <label for="">Flex</label>
+        <input type="checkbox" name="display" id="flex">
+        <button id="reset">Reset</button>
+      </div>
+      <hr>
+      <h2 class="control-panel__stats-title">Stats</h2>
+      <hr>
+      <div class="control-panel__stats">
+        <div>Box:</div>
+        <div data-key="select"></div>
+        <div>Height:</div>
+        <div data-key="height"></div>
+        <div>Width:</div>
+        <div data-key="width"></div>
+        <div>Padding:</div>
+        <div data-key="padding"></div>
+        <div>Border:</div>
+        <div data-key="border"></div>
+        <div>Margin:</div>
+        <div data-key="margin"></div>
+        <div>Color:</div>
+        <div data-key="backgroundColor"></div>
+      </div>
+    </div>
+  </aside>
+  <main class="display">
+
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

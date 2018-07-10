@@ -1,0 +1,33 @@
+{
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    "editor.minimap.enabled": false,
+
+    "editor.renderWhitespace": "boundary",
+
+    "editor.rulers": [80],
+
+    "editor.snippetSuggestions": "top",
+    
+    "editor.tabSize": 2,
+
+    "editor.quickSuggestionsDelay": 7,
+    
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    
+    "explorer.confirmDragAndDrop": false,
+
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html-css-class-completion.excludeGlobPattern": "",
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html}",
+
+    "window.zoomLevel": 1,
+
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Cobalt2",
+    "materialTheme.fixIconsRunning": false,
+}

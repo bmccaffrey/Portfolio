@@ -1,0 +1,79 @@
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: cornflowerblue;
+}
+
+header {
+  display: grid;
+  color: white;
+  border: solid 1px black;
+  background: black;
+  font-style: italic;
+}
+
+main {
+  border: solid 1px black;
+}
+
+h1, h2, h3 { margin: 0;}
+
+.ui-display { display: grid;}
+
+
+
+h2 {
+  grid-row: 1/2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.user {
+  grid-column: 1/2;
+}
+.cards {
+  font-size: 75pt;
+  color: lightgrey;
+  grid-row: 2/3;
+}
+
+.dealer {
+  grid-column: 2/3;
+}
+
+.total {
+  grid-row: 4/5;
+}
+
+.ui-buttons {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  margin-top: 15%;
+}
+
+/* label { grid-column: 2/3;} */
+.money { grid-column: 2/6;}
+input { grid-column: 3/6;}
+button[name=hit] { grid-column: 2/5;}
+button[name=stand] { grid-column: 7/10;}
+button[name=play] { grid-column: 3/9;}
+
+.money { grid-row: 1/2;}
+input {grid-row: 2/3;}
+button { grid-row: 3/4;}
+button[name=play] { grid-row: 4/5}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    width: 450px;
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <header>
+      <h1>Blackjack App</h1>
+    </header>
+    <main>
+      <div class="ui-display">
+          <h2 class="user">User</h2>
+          <div class="user cards">&#x1F0A0&#x1F0A0</div>
+          <h3 class="user total">Total</h3>
+    
+          <h2 class="dealer">Dealer</h2>
+          <div class="dealer cards">&#x1F0A0&#x1F0A0</div>
+          <!-- <h3 class="dealer money">Money</h3> -->
+          <h3 class="dealer total">Total</h3>
+      </div>
+      
+      
+      <div class="ui-buttons">
+          <!-- <label for="bet">Your Bet</label> -->
+          <h3 class="money">Money</h3>
+          <input type="number" name="bet" min="1" placeholder="Bet amount" required>
+          <button name="hit" disabled>Hit</button>
+          <button name="stand" disabled>Stand</button>
+          <button type="submit" name="play">Play</button>
+      </div>
+
+    </main>
+    <script src="blackjack.js"></script>
+  </body>
+</html>
