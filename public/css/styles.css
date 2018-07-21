@@ -64,6 +64,11 @@ div.text {
   font-size: 2em;
 }
 
+.icons__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 div.icon {
   display: inline-block;
   height: 50px;
